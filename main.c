@@ -41,10 +41,7 @@ int main()
 			LED_Off(LED_LD4_G); // Dim green LED
 		}
 
-		LED_On(LED_LD6_B); // Lit blue LED
-		delay(1000000);
-
-		LED_Off(LED_LD6_B); // Dim blue LED
+		LED_Toggle(LED_LD6_B); // Toggle blue LED
 		delay(1000000);
 	}
 }
