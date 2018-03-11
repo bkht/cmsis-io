@@ -12,7 +12,7 @@ void LED_Off(uint16_t led)
 
 void LED_Toggle(uint16_t led)
 {
-	GPIOD->ODR ^= led; // Dim LED
+	GPIOD->ODR ^= led; // Toggle LED
 }
 
 void LED_Set(uint16_t led, uint8_t status)
